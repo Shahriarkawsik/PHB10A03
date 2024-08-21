@@ -14,6 +14,7 @@ module.exports = {
       colors:{
         "btn-color": "rgb(171, 239, 95)",
         "btn-color-2": "rgb(28, 28, 28)",
+        "border-color": "rgb(171, 239, 95)",
         "btn-color-3": "rgba(171, 239, 95, 0.5)",
         "title-color": "rgb(33, 33, 33)",
         "item-color-1": "rgb(73, 73, 73)",
@@ -22,16 +23,18 @@ module.exports = {
       fontFamily:{
         "Manrope": "Manrope",
       },
-      lineHeight:{
-        "44": "44px"
-      },
       fontSize:{
+        "14": "14px",
         "28": "28px",
         "32": "32px",
+        "64": "64px",
       },
       lineHeight:{
-        "44": "44px"
+        "44": "44px",
+        "49": "49px",
+        "87": "87px",
       },      
+           
     },
   },
   plugins: [
