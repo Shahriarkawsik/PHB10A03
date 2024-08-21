@@ -1535,8 +1535,8 @@ html {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.rounded-badge {
-  border-radius: var(--rounded-badge, 1.9rem);
+.rounded-32 {
+  border-radius: 32px;
 }
 
 .rounded-box {
@@ -1545,10 +1545,6 @@ html {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-32 {
-  border-radius: 32px;
 }
 
 .bg-base-100 {
@@ -1587,10 +1583,6 @@ html {
   font-family: Manrope;
 }
 
-.text-32 {
-  font-size: 32px;
-}
-
 .font-extrabold {
   font-weight: 800;
 }
@@ -1622,11 +1614,6 @@ html {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:my-14 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-  }
-
   .max-sm\:my-5 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -1636,40 +1623,8 @@ html {
     display: none;
   }
 
-  .max-sm\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .max-sm\:w-1\/12 {
-    width: 8.333333%;
-  }
-
   .max-sm\:w-9\/12 {
     width: 75%;
-  }
-
-  .max-sm\:p-5 {
-    padding: 1.25rem;
-  }
-
-  .max-sm\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
-  .max-sm\:pr-16 {
-    padding-right: 4rem;
-  }
-
-  .max-sm\:pr-12 {
-    padding-right: 3rem;
-  }
-
-  .max-sm\:pr-8 {
-    padding-right: 2rem;
-  }
-
-  .max-sm\:pr-5 {
-    padding-right: 1.25rem;
   }
 
   .max-sm\:pr-3 {
@@ -1679,16 +1634,6 @@ html {
   .max-sm\:text-28 {
     font-size: 28px;
   }
-
-  .max-sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .max-sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 640px) {
@@ -1696,10 +1641,6 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.75rem * var(--tw-space-x-reverse));
     margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:pr-10 {
-    padding-right: 2.5rem;
   }
 
   .sm\:text-32 {
@@ -1716,14 +1657,6 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:text-28 {
-    font-size: 28px;
-  }
-
-  .md\:text-32 {
-    font-size: 32px;
   }
 }
 
@@ -1749,20 +1682,6 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.25rem * var(--tw-space-x-reverse));
     margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:p-14 {
-    padding: 3.5rem;
-  }
-
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
-  .lg\:py-14 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
   }
 
   .lg\:text-32 {
