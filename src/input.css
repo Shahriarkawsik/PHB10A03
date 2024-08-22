@@ -12,4 +12,7 @@
   .work-card {
     @apply rounded-2xl p-6 space-y-3;
   }
+  .portfolio-card {
+    @apply p-4 lg:p-6 xl:p-6 rounded-2xl border bg-white border-portf-border-color space-y-3;
+  }
 }

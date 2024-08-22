@@ -24,6 +24,7 @@ module.exports = {
         "card-2": "rgb(239, 218, 110)",
         "card-3": "rgb(164, 218, 195)",
         "cards-4": "rgb(119, 170, 234))",
+        "portf-border-color": "rgb(233, 233, 233)",
       },
       fontFamily:{
         "Manrope": "Manrope",
