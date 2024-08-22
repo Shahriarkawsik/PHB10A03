@@ -20,6 +20,10 @@ module.exports = {
         "item-color-1": "rgb(73, 73, 73)",
         "item-color-2": "rgb(115, 115, 115)",
         "main-color-1": "rgb(244, 244, 244)",
+        "card-1": "rgb(231, 193, 211)",
+        "card-2": "rgb(239, 218, 110)",
+        "card-3": "rgb(164, 218, 195)",
+        "cards-4": "rgb(119, 170, 234))",
       },
       fontFamily:{
         "Manrope": "Manrope",

@@ -9,4 +9,7 @@
   .subtitle {
     @apply font-medium text-item-color-1 text-14 leading-24 sm:text-base sm:leading-26 lg:text-base;
   }
+  .work-card {
+    @apply rounded-2xl p-6 space-y-3;
+  }
 }
