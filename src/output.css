@@ -2519,10 +2519,6 @@ html {
     padding: 1.5rem;
   }
 
-  .lg\:p-20 {
-    padding: 5rem;
-  }
-
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
