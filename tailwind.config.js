@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {      
       backgroundImage:{
-        "header-bg-color": "linear-gradient(0deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)"
+        "header-bg-color": "linear-gradient(0deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)",
+        // "footer-backgroundImage": "linear-gradient(0deg, rgb(5, 155, 155),rgba(255, 255, 255, 0) 100%),url('./assets/bg.jpg')",
+        "footer-backgroundImage": "url('./assets/bg.jpg')",       
       },
       borderRadius:{
         "32": "32px"
@@ -25,6 +27,7 @@ module.exports = {
         "card-3": "rgb(164, 218, 195)",
         "cards-4": "rgb(119, 170, 234))",
         "portf-border-color": "rgb(233, 233, 233)",
+        "placeholder-color": "rgb(160, 160, 160)",
       },
       fontFamily:{
         "Manrope": "Manrope",
