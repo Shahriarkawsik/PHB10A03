@@ -2066,6 +2066,11 @@ html {
   padding-bottom: 2.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2154,10 +2159,6 @@ html {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:hidden {
-    display: none;
-  }
-
   .max-lg\:h-full {
     height: 100%;
   }
@@ -2338,6 +2339,11 @@ html {
   .sm\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .sm\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .sm\:text-center {
@@ -2550,8 +2556,12 @@ html {
     line-height: 44px;
   }
 
-  .lg\:leading-87 {
-    line-height: 87px;
+  .lg\:leading-70 {
+    line-height: 60px;
+  }
+
+  .lg\:leading-60 {
+    line-height: 60px;
   }
 }
 
