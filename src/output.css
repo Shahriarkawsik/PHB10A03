@@ -2176,16 +2176,12 @@ html {
   padding: 0.75rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .py-10 {
@@ -2222,11 +2218,6 @@ html {
 
 .text-28 {
   font-size: 28px;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-xl {
@@ -2310,8 +2301,16 @@ html {
     grid-row-start: 2;
   }
 
+  .max-lg\:hidden {
+    display: none;
+  }
+
   .max-lg\:h-full {
     height: 100%;
+  }
+
+  .max-lg\:w-full {
+    width: 100%;
   }
 }
 
@@ -2693,8 +2692,16 @@ html {
     flex-direction: column;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:gap-3 {
@@ -2705,10 +2712,10 @@ html {
     gap: 1.5rem;
   }
 
-  .lg\:space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  .lg\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -2745,6 +2752,12 @@ html {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:p-4 {
@@ -2797,23 +2810,46 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:my-5 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
-
   .xl\:mr-3 {
     margin-right: 0.75rem;
+  }
+
+  .xl\:items-start {
+    align-items: flex-start;
   }
 
   .xl\:gap-11 {
     gap: 2.75rem;
   }
 
+  .xl\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
   }
 
   .xl\:space-y-3 > :not([hidden]) ~ :not([hidden]) {
