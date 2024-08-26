@@ -2297,6 +2297,10 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline-0 {
+  outline-width: 0px;
+}
+
 @media not all and (min-width: 1024px) {
   .max-lg\:row-start-1 {
     grid-row-start: 1;
